@@ -1,0 +1,161 @@
+
+#img01 {
+  width: 200px;
+  position: relative;
+}
+#img01 {
+  width: 70%
+}
+img {
+  width: 70%
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: Verdana;
+}
+
+#container {
+  width: 900px;
+}
+
+#cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  height: 80px;
+}
+
+#menu {
+  list-style: none;
+}
+
+.item-menu {
+  display: inline;
+  margin-left: 20px;
+  background-color: #eb5a21;
+  padding: 10px;
+}
+
+.link-menu {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#conteudo {
+  margin-top: 10px;
+}
+
+
+
+h1, h2 {
+  font-family: 'Gill Sans';
+  color: #333333;
+}
+
+#principal {
+  display: flex;
+  background-color: #eb5a21;
+}
+
+#descricao {
+  padding: 10px;
+  text-align: justify;
+}
+
+
+#portifolio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link-port {
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #eb5a21;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 10px;
+}
+
+
+
+#rodape {
+  margin-top: 10px;
+  background-color: #eb5a21;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.p-rodape {
+  width: 300px;
+}
+
+.link-rodape {
+  background-color: #ffffff;
+  padding: 5px;
+  margin: 5px;
+  color: #eb5a21
+}
+
+form {
+  /* Apenas para centralizar o form na página */
+  margin: 0 auto;
+  width: 400px;
+  /* Para ver as bordas do formulário */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+  /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+  font: 1em sans-serif;
+
+  /* Para dar o mesmo tamanho a todos os campo de texto */
+  width: 300px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  /* Para harmonizar o look & feel das bordas nos campos de texto*/
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  /* Dar um pouco de destaque nos elementos ativos */
+  border-color: #000;
+}
+
+textarea {
+  /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+  vertical-align: top;
+
+  /* Para dar espaço suficiente para digitar algum texto */
+  height: 5em;
+
+  /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+  resize: vertical;
+}
